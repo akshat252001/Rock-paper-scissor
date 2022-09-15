@@ -33,7 +33,7 @@ body{
     gap: 20px;
 }
 
-.player, .computer{
+.player, .computer, .result{
     font: bold 25px Georgia, serif;
     color: white;
     padding: 15px 20px;
@@ -74,4 +74,8 @@ button{
 .player button:hover{
     background: #FFFF00;
     cursor: pointer;
+}
+
+.result{
+    align-self: center;
 }
